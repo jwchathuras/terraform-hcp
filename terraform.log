@@ -1,0 +1,40 @@
+{"@level":"info","@message":"Terraform version: 1.14.6","@timestamp":"2026-03-29T12:10:27.191671+08:00"}
+{"@level":"debug","@message":"using github.com/hashicorp/go-tfe v1.94.0","@timestamp":"2026-03-29T12:10:27.191899+08:00"}
+{"@level":"debug","@message":"using github.com/hashicorp/hcl/v2 v2.24.0","@timestamp":"2026-03-29T12:10:27.191905+08:00"}
+{"@level":"debug","@message":"using github.com/hashicorp/terraform-svchost v0.1.1","@timestamp":"2026-03-29T12:10:27.191909+08:00"}
+{"@level":"debug","@message":"using github.com/zclconf/go-cty v1.16.3","@timestamp":"2026-03-29T12:10:27.191912+08:00"}
+{"@level":"info","@message":"Go runtime version: go1.25.6","@timestamp":"2026-03-29T12:10:27.191915+08:00"}
+{"@level":"info","@message":"CLI args: []string{\"terraform\", \"apply\"}","@timestamp":"2026-03-29T12:10:27.191919+08:00"}
+{"@level":"trace","@message":"Stdout is a terminal of width 212","@timestamp":"2026-03-29T12:10:27.191926+08:00"}
+{"@level":"trace","@message":"Stderr is a terminal of width 212","@timestamp":"2026-03-29T12:10:27.191929+08:00"}
+{"@level":"trace","@message":"Stdin is a terminal","@timestamp":"2026-03-29T12:10:27.191932+08:00"}
+{"@level":"debug","@message":"Attempting to open CLI config file: /Users/omnibis/.terraformrc","@timestamp":"2026-03-29T12:10:27.191945+08:00"}
+{"@level":"debug","@message":"File doesn't exist, but doesn't need to. Ignoring.","@timestamp":"2026-03-29T12:10:27.191957+08:00"}
+{"@level":"info","@message":"Loading CLI configuration from /Users/omnibis/.terraform.d/credentials.tfrc.json","@timestamp":"2026-03-29T12:10:27.192325+08:00"}
+{"@level":"debug","@message":"ignoring non-existing provider search directory terraform.d/plugins","@timestamp":"2026-03-29T12:10:27.192749+08:00"}
+{"@level":"debug","@message":"ignoring non-existing provider search directory /Users/omnibis/.terraform.d/plugins","@timestamp":"2026-03-29T12:10:27.192761+08:00"}
+{"@level":"debug","@message":"ignoring non-existing provider search directory /Users/omnibis/Library/Application Support/io.terraform/plugins","@timestamp":"2026-03-29T12:10:27.192783+08:00"}
+{"@level":"debug","@message":"ignoring non-existing provider search directory /Library/Application Support/io.terraform/plugins","@timestamp":"2026-03-29T12:10:27.192789+08:00"}
+{"@level":"info","@message":"CLI command args: []string{\"apply\"}","@timestamp":"2026-03-29T12:10:27.193327+08:00"}
+{"@level":"trace","@message":"Meta.Backend: no config given or present on disk, so returning nil config","@timestamp":"2026-03-29T12:10:27.195142+08:00"}
+{"@level":"trace","@message":"Meta.Backend: backend has not previously been initialized in this working directory","@timestamp":"2026-03-29T12:10:27.195274+08:00"}
+{"@level":"trace","@message":"Meta.Backend: using default local state only (no backend configuration, and no existing initialized backend)","@timestamp":"2026-03-29T12:10:27.195279+08:00"}
+{"@level":"trace","@message":"Meta.Backend: instantiated backend of type \u003cnil\u003e","@timestamp":"2026-03-29T12:10:27.195283+08:00"}
+{"@level":"debug","@message":"checking for provisioner in \".\"","@timestamp":"2026-03-29T12:10:27.195439+08:00"}
+{"@level":"debug","@message":"checking for provisioner in \"/opt/homebrew/bin\"","@timestamp":"2026-03-29T12:10:27.197558+08:00"}
+{"@level":"trace","@message":"Meta.Backend: backend \u003cnil\u003e does not support operations, so wrapping it in a local backend","@timestamp":"2026-03-29T12:10:27.197577+08:00"}
+{"@level":"info","@message":"backend/local: starting Apply operation","@timestamp":"2026-03-29T12:10:27.199196+08:00"}
+{"@level":"trace","@message":"backend/local: requesting state manager for workspace \"default\"","@timestamp":"2026-03-29T12:10:27.199226+08:00"}
+{"@level":"trace","@message":"backend/local: state manager for workspace \"default\" will:\n - read initial snapshot from terraform.tfstate\n - write new snapshots to terraform.tfstate\n - create any backup at terraform.tfstate.backup","@timestamp":"2026-03-29T12:10:27.199241+08:00"}
+{"@level":"trace","@message":"backend/local: requesting state lock for workspace \"default\"","@timestamp":"2026-03-29T12:10:27.199245+08:00"}
+{"@level":"trace","@message":"statemgr.Filesystem: preparing to manage state snapshots at terraform.tfstate","@timestamp":"2026-03-29T12:10:27.199783+08:00"}
+{"@level":"trace","@message":"statemgr.Filesystem: no previously-stored snapshot exists","@timestamp":"2026-03-29T12:10:27.200213+08:00"}
+{"@level":"trace","@message":"statemgr.Filesystem: locking terraform.tfstate using fcntl flock","@timestamp":"2026-03-29T12:10:27.200217+08:00"}
+{"@level":"trace","@message":"statemgr.Filesystem: writing lock metadata to .terraform.tfstate.lock.info","@timestamp":"2026-03-29T12:10:27.200223+08:00"}
+{"@level":"trace","@message":"backend/local: reading remote state for workspace \"default\"","@timestamp":"2026-03-29T12:10:27.200294+08:00"}
+{"@level":"trace","@message":"statemgr.Filesystem: reading latest snapshot from terraform.tfstate","@timestamp":"2026-03-29T12:10:27.200297+08:00"}
+{"@level":"trace","@message":"statemgr.Filesystem: snapshot file has nil snapshot, but that's okay","@timestamp":"2026-03-29T12:10:27.200301+08:00"}
+{"@level":"trace","@message":"statemgr.Filesystem: read nil snapshot","@timestamp":"2026-03-29T12:10:27.200303+08:00"}
+{"@level":"trace","@message":"backend/local: populating backendrun.LocalRun for current working directory","@timestamp":"2026-03-29T12:10:27.200305+08:00"}
+{"@level":"trace","@message":"statemgr.Filesystem: removing lock metadata file .terraform.tfstate.lock.info","@timestamp":"2026-03-29T12:10:27.201550+08:00"}
+{"@level":"trace","@message":"statemgr.Filesystem: unlocking terraform.tfstate using fcntl flock","@timestamp":"2026-03-29T12:10:27.201606+08:00"}
