@@ -1,6 +1,6 @@
 resource "local_file" "userlist" {
   filename = "${path.module}/list.txt"
-  content = "['user02','user03']"
+  content = "['user01','user02','user03']"
 
 }
 
