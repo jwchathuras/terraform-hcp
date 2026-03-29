@@ -1,15 +1,9 @@
-resource "aws_vpc" "this" {
-  cidr_block = var.cidr_block
-  tags = {
-    Name = var.name
-  }
+module "test_file" {
+  source   = "./modules/myfile"
+  filename = "hello.txt"
+  content  = "Hello Terraform Local Module!"
 }
 
-resource "aws_subnet" "this" {
-  vpc_id            = aws_vpc.this.id
-  cidr_block        = var.subnet_cidr
-  availability_zone = var.availability_zone
-  tags = {
-    Name = "${var.name}-subnet"
-  }
+output "created_file" {
+  value = module.test_file.file_path
 }
